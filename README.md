@@ -3,8 +3,9 @@ simple URL validator with Typescript for Deno 🦕
 ```js
 import { isURL } from "https://deno.land/x/is_url/mod.ts";
 
-// fe
+// Some use cases and results
 console.log(isURL('http://deno.land'))           // true
 console.log(isURL('https://deno.land/x/is_url')) // true
 console.log(isURL('deno.land'))                  // false
 console.log(isURL('google'))                     // false
+```
