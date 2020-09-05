@@ -4,7 +4,7 @@
  * @return boolean
  * 
  */
-export const isURL = (inputString: string): boolean => {
+export const isURL = (inputString: any): boolean => {
   try {
     const url: any = new URL(inputString);
   } catch (_) {
